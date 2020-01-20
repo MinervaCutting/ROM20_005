@@ -1,0 +1,137 @@
+
+---
+title: MADRID ESMO GROUP
+author: "Cutting Edge Events"
+date: "`r Sys.Date()`"
+output:
+  
+  html_document:
+    css: FORMATO.css
+    highlight: textmate
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+    font-import: http://fonts.googleapis.com/css?family=Barlow Condensed
+    font-family: 'Barlow Condensed'
+
+---
+
+<style>
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #EA5933;
+}
+</style>
+
+<style>
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #EA5933;
+    font-weight: bold;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: white;
+    background-color: #EA5933;
+}
+</style>
+
+<style>
+
+.rates{
+background-color: #607D8B;
+color: white;
+padding: 10px;
+border: 1px solid black;
+margin-left: 5px;
+border-radius: 5px;
+font-style: italic;
+}
+</style>
+
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="CUTTLOGO.svg" width="200" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(dplyr)
+library(knitr)
+```
+
+# HOTEL OPTIONS
+
+## MAP
+
+In the Map below you will find:
+
+  * Green - Hotel Catalonia Goya and some of the nearest restaurants that we could use if you confirm this hotel.
+  
+  * Blue - Hotel Paseo del Arte and some of the nearest restaurants that we could use if you confirm this hotel.
+  
+  * Black - some of the city highlights (just to clarify the hotels' location)
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1-y6KyIaRba_d1GVFfmZRM833iLuS6m30&hl=es" width="100%" height="550"></iframe>
+
+</br>
+
+## Hotel Paseo del Arte
+
+<iframe src="Hotel Paseo del Arte/PaseodelArte.html" frameborder="0" width="100%" height="1350" scrolling="no"></iframe>
+
+<div class="rates">
+  <p> Rates per room and night - rates valid for a minimum of 3 nights:
+    <ul>
+      * Double room for single use, breakfast inc: 275€ VAT inc 
+      
+* Double room, breakfast inc: 292€ VAT inc
+    </ul>
+  </p>
+</div>
+
+</br>
+
+## Hotel Catalonia Goya
+
+<iframe src="Catalonia Goya/Goya.html" frameborder="0" width="100%" height="1230" scrolling="no"></iframe>
+
+
+
+<div class="rates">
+  <p> Rates per room and night - rates valid for a minimum of 3 nights:
+    <ul>
+      * Double room for single use, breakfast inc: 310€ VAT inc 
+      
+* Double room, breakfast inc: 330€ VAT inc
+    </ul>
+  </p>
+</div>
+
+
+</br>
+
+
+# TERMS AND CONDITIONS
+  
+* Net rates for  **Your Events**
+  
+* For a minimum booking of 20 rooms x 3 nights.
+  
+* Cutting Edge Events management fee including in the detailed rates
+  
+* VAT included. 
+  
+* No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
